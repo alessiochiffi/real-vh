@@ -1,13 +1,13 @@
 {
   "name": "real-vh",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.4",
+  "private": false,
   "main": "dist/real-vh.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-package": "vue-cli-service build --target lib --name real-vh ./src/main.js"
+    "build-package": "vue-cli-service build --target lib --name real-vh ./src/plugin/real-vh.js --mode production"
   },
   "files": [
     "dist/*",

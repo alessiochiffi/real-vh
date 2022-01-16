@@ -1,6 +1,6 @@
 import throttle from '../util';
 
-export default {
+const RealVh = {
   install(Vue, options) {
     let vh = window.innerHeight * 0.01;
     let isRealVhSet = false;
@@ -56,3 +56,9 @@ export default {
     });
   },
 };
+
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(RealVh);
+}
+
+export default RealVh;
