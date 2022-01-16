@@ -1,6 +1,6 @@
 {
   "name": "real-vh",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "private": false,
   "main": "dist/real-vh.common.js",
   "scripts": {
@@ -28,5 +28,16 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessiochiffi/real-vh"
+  },
+  "author": "Alessio Chiffi alessiochf@gmail.com",
+  "keywords": [
+    "viewport",
+    "vue",
+    "css",
+    "vh"
+  ]
 }
